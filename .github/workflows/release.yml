@@ -19,3 +19,4 @@ jobs:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: ./repo.sdz
           asset_name: ${{ env.CI_REPOSITORY_NAME }}-${{ env.CI_REF_NAME }}.sdz
+          asset_content_type: application/zip
